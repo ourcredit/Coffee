@@ -4,7 +4,7 @@
       <milk-table ref="list" :layout="[20,2,2]" :columns="cols" :search-api="searchApi" :params="params">
         <template slot="search">
           <Form ref="params" :model="params" inline :label-width="60">
-            <FormItem label="运维人员名">
+            <FormItem label="运维人员">
               <Input v-model="params.device" style="width: 140px" placeholder="运维人员"></Input>
             </FormItem>
             </FormItem>
