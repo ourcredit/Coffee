@@ -19,7 +19,7 @@
       </flexbox-item>
     </flexbox>
     <div class="immeCharge">
-      <x-button @click.native="charge" mini class="myimme">立即购买</x-button>
+      <!-- <x-button @click.native="charge" mini class="myimme">立即购买</x-button> -->
     </div>
   </div>
 </template>

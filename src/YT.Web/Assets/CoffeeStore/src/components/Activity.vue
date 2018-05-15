@@ -15,7 +15,7 @@
         </div>
       </masker>
     </div>
-     <x-button class="m-buy" type="primary" @click.native="buyCard">购买</x-button>
+     <!-- <x-button class="m-buy" type="primary" @click.native="buyCard">购买</x-button> -->
   </div>
 </template>
 

@@ -7,7 +7,8 @@
       <p class="center">{{info.nickName}}</p>
     </blur>
     <group>
-      <cell :title="money" link="/balance" value="充值" is-link>
+      <!-- <cell :title="money" link="/balance" value="充值" is-link> -->
+      <cell :title="money"  is-link>
         <img slot="icon" width="20" style="display:block;margin-right:5px;" src="../assets/kafeijuan_a_xh.png">
       </cell>
       <cell :title="card" link="/mycard" value="" is-link>
